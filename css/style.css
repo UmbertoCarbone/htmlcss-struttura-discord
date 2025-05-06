@@ -1,0 +1,32 @@
+* {
+  margin: 0 auto;
+}
+
+header {
+  background-color: lightblue;
+  padding: 25px;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  border: 1px dashed black;
+}
+
+.logo {
+  background-color: orange;
+  padding: 5px 10px;
+  width: 25%;
+}
+
+.links {
+  background-color: orange;
+  padding: 5px 10px;
+  width: 50%;
+}
+
+.login {
+  background-color: orange;
+  padding: 5px 10px;
+  width: 25%;
+}
