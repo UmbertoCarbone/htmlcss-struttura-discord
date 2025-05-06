@@ -2,7 +2,9 @@
 /* color container orange: #DAA520; */
 
 /* color header lightblue: #ADD8E6; */
+
 /*Main*/
+
 /*color sfondo 1° Main:    #00008B; */
 
 /*color container 1°Main:  #EE82EE; */
@@ -15,7 +17,9 @@ Celeste e Rosa*/
 /*color 3° e 5° Main:      #D3D3D3; */
 
 /*color 5° container:      #228B22; */
+
 /*Footer*/
+
 /*color Footer Darkgrey:   #23272A; */
 
 /*color container 1°colonna rosa
@@ -31,32 +35,31 @@ Celeste e Rosa*/
 }
 
 header {
-  background-color: #ADD8E6;
+  background-color: #add8e6;
   padding: 25px;
 }
 
 div {
   display: flex;
   justify-content: center;
-  
 }
 
 .logo {
-  background-color: #DAA520;
+  background-color: #daa520;
   padding: 5px 10px;
   width: 25%;
   border: 1px dashed black;
 }
 
 .links {
-  background-color: #DAA520;
+  background-color: #daa520;
   padding: 5px 10px;
   width: 50%;
   border: 1px dashed black;
 }
 
 .login {
-  background-color: #DAA520;
+  background-color: #daa520;
   padding: 5px 10px;
   width: 25%;
   border: 1px dashed black;
@@ -65,57 +68,65 @@ div {
 
 /*Inizio Main */
 .bg-blue {
-    background-color: navy;
-    padding: 70px;
-  }
-  .container-pink {
-    background-color: violet;
-    display: flex;
-    justify-content: center;
-    width: 1200px;
-    height: 500px;
-    border: 2px dashed black;
+  background-color: navy;
+  padding: 70px;
+}
+.container-pink {
+  background-color: violet;
+  display: flex;
+  justify-content: center;
+  width: 1200px;
+  height: 500px;
+  border: 2px dashed black;
 }
 .bg-white {
-background-color: rgb(255, 255, 255);
-padding: 100px;
-display: flex;
-justify-content: center;
-
-
-
+  background-color: rgb(255, 255, 255);
+  padding: 100px;
+  display: flex;
+  justify-content: center;
 }
 
 .box-lightblue {
-background-color: #1E90FF;
-    display: flex;
-    align-content:center;
-    margin: 0px;
-    width: 922px;
-    height: 400px;
-    border: 2px dashed black;
+  background-color: #1e90ff;
+  display: flex;
+  align-content: center;
+  margin: 0px;
+  width: 922px;
+  height: 400px;
+  border: 2px dashed black;
 }
 
 .box-pink {
-    background-color:#FFC0CB;
-    display: flex;
-    align-content:center;
-    margin: 0px;
-     width: 600px;
-    height: 400px; 
-     border: 2px dashed black;
+  background-color: #ffc0cb;
+  display: flex;
+  align-content: center;
+  margin: 0px;
+  width: 600px;
+  height: 400px;
+  border: 2px dashed black;
 }
 
 .bg-grey {
-    background-color: #D3D3D3;
-    padding: 100px;
-    display: flex;
-    justify-content: center;
-    flex-direction: row-reverse;
-    
+  background-color: #d3d3d3;
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+}
+
+.bg-grey {
+  background-color: #d3d3d3;
+  padding: 120px;
+}
+
+.container-green {
+  background-color: #228b22;
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  height: 800px;
+  border: 2px dashed black;
 }
 
 
 /* */
-
-
