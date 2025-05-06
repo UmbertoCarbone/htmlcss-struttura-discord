@@ -22,7 +22,7 @@ Celeste e Rosa*/
 
 /*color Footer Darkgrey:   #23272A; */
 
-/*color container 1°colonna rosa
+/*color container 1°colonna rosapesca
 #F08080 */
 
 /*color container 1°2°3°4° colonna Verdeacqua
@@ -36,7 +36,7 @@ Celeste e Rosa*/
 
 header {
   background-color: #add8e6;
-  padding: 25px;
+  padding: 20px;
 }
 
 div {
@@ -47,14 +47,16 @@ div {
 .logo {
   background-color: #daa520;
   padding: 5px 10px;
-  width: 25%;
+  width: 20%;
+  margin: 0;
   border: 1px dashed black;
 }
 
 .links {
   background-color: #daa520;
   padding: 5px 10px;
-  width: 50%;
+  width: 40%;
+  margin: 0;
   border: 1px dashed black;
 }
 
@@ -62,6 +64,7 @@ div {
   background-color: #daa520;
   padding: 5px 10px;
   width: 25%;
+  margin: 0;
   border: 1px dashed black;
 }
 /*Fine Header*/
@@ -116,17 +119,92 @@ div {
 
 .bg-grey {
   background-color: #d3d3d3;
-  padding: 120px;
+  padding: 100px;
 }
 
 .container-green {
   background-color: #228b22;
+  margin:0;
   display: flex;
   justify-content: center;
-  width: 80%;
+  width: 1522px;
   height: 800px;
   border: 2px dashed black;
 }
 
+/* Fine Main */
 
+/* Inizio Footer */
+
+.bg-darkgrey {
+  background-color: #23272a;
+  padding: 0.5% 20% 2% 20%;
+  display: flex;
+  justify-content: center;
+}
+
+.container-peach-pink {
+  background-color: #f08080;
+  width: 40%;
+  height: 600px;
+  border: 2px dashed rgb(255, 255, 255);
+}
+
+.teal {
+  background-color: #20b2aa;
+  border: 2px dashed rgb(255, 255, 255);
+  width: 20%;
+}
+/*
+ #teal {
+    background-color: #ffc0cb;
+    border: 2px dashed rgb(255, 255, 255); 
+    }            */
+
+hr {
+  /* Piccolo Off-Topic*/
+  border: none;
+  height: 4px;
+  padding: 0;
+  animation: colorChange 4s infinite alternate;
+}
+
+@keyframes colorChange {
+  0% {
+    background-color: rgb(255, 0, 0);
+  } /* Rosso */
+  14% {
+    background-color: rgb(255, 127, 0);
+  } /* Arancione */
+  28% {
+    background-color: rgb(255, 255, 0);
+  } /* Giallo */
+  42% {
+    background-color: rgb(0, 255, 0);
+  } /* Verde */
+  57% {
+    background-color: rgb(0, 0, 255);
+  } /* Blu */
+  71% {
+    background-color: rgb(75, 0, 130);
+  } /* Indaco */
+  85% {
+    background-color: rgb(148, 0, 211);
+  } /* Viola */
+  100% {
+    background-color: rgb(255, 0, 0);
+  } /* Rosso */
+}
+
+#bg-darkgrey1 {
+    background-color: #23272a;
+    padding:  20px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+button + .logo {
+    background-color: green;
+}
 /* */
