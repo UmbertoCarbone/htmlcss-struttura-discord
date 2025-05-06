@@ -1,32 +1,80 @@
+/*Header*/
+/* color container orange: #DAA520; */
+
+/* color header lightblue: #ADD8E6; */
+/*Main*/
+/*color sfondo 1° Main:    #00008B; */
+
+/*color container 1°Main:  #EE82EE; */
+
+/*color 2° e 4° Main:     #FFFFFF; */
+
+/*color 2° 3° 4° Container: #1E90FF; / #FFC0CB; 
+Celeste e Rosa*/
+
+/*color 3° e 5° Main:      #D3D3D3; */
+
+/*color 5° container:      #228B22; */
+/*Footer*/
+/*color Footer Darkgrey:   #23272A; */
+
+/*color container 1°colonna rosa
+#F08080 */
+
+/*color container 1°2°3°4° colonna Verdeacqua
+#20B2AA; */
+
+/*color secondo footer #20B2AA; */
+
 * {
   margin: 0 auto;
 }
 
 header {
-  background-color: lightblue;
+  background-color: #ADD8E6;
   padding: 25px;
 }
 
 div {
   display: flex;
   justify-content: center;
-  border: 1px dashed black;
+  
 }
 
 .logo {
-  background-color: orange;
+  background-color: #DAA520;
   padding: 5px 10px;
   width: 25%;
+  border: 1px dashed black;
 }
 
 .links {
-  background-color: orange;
+  background-color: #DAA520;
   padding: 5px 10px;
   width: 50%;
+  border: 1px dashed black;
 }
 
 .login {
-  background-color: orange;
+  background-color: #DAA520;
   padding: 5px 10px;
   width: 25%;
+  border: 1px dashed black;
 }
+/*Fine Header*/
+.bg-blue {
+    background-color: navy;
+    padding: 70px;
+  }
+  .container-pink {
+    background-color: violet;
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    height: 500px;
+    border: 2px dashed black;
+}
+
+
+/*Inizio Main */
+
