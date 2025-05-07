@@ -78,7 +78,8 @@ div {
   background-color: violet;
   display: flex;
   justify-content: center;
-  width: 1200px;
+  width: 90%;
+  max-width: 1522px;
   height: 500px;
   border: 2px dashed black;
 }
@@ -208,3 +209,5 @@ button + .logo {
     background-color: green;
 }
 /* */
+
+
